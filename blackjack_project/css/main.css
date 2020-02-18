@@ -1,0 +1,151 @@
+body {
+  font-family: Arial;
+
+}
+.wrapper {
+  max-width: 900px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+h2 {
+  text-align: center;
+  margin: 15px 0;
+  color: #ccc;
+}
+label {
+  font-size: 1em;
+  color: #ccc
+}
+#table {
+  max-width: 100%;
+  margin: -80px auto 0 auto;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  background-color: black;
+  border-radius: 0 0 0 0;
+}
+.user {
+  padding-left: 50px;
+  text-align: center;
+}
+#dealer-hand, #player-hand {
+  width: 90%;
+  height: 65px;
+  margin: 15px auto;
+  background-color: #ccc;
+}
+
+.buttons {
+  text-align: center;
+  margin-top:40px;
+}
+
+#messages {
+  width: 100%;
+  height: 60px;
+  margin: 0;
+  text-align: center;
+  color: #ca3a3a;
+  font-size: 1.3em;
+  line-height: 60px;
+  font-weight: bold;
+}
+
+button:enabled:hover {
+  background-color: #000;
+  color: #ddd;
+  transition: 0.6s;
+}
+
+button:focus {
+  outline: none;
+}
+#reset-button {
+  display: block;
+  margin: auto;
+}
+button {
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: #ccc;
+  border: none;
+  font-size: 1.15em;
+  transition: 0.3s;
+  cursor: pointer;
+  padding: 10px 15px;
+}
+
+.card {
+  height: 60px;
+  margin-top: 4px;
+  margin-left: 5px;
+}
+#dealer-whole-card {
+  width: 41px;
+  border-radius: 1px;
+  margin-top: 4px;
+  margin-left: 6px;
+  margin-right: -6px;
+}
+
+
+@media screen and (min-width: 600px) {
+  #table {
+    margin-top: -95px;
+  }
+  h1 {
+    font-size: 2.25em;
+  }
+  #messages {
+    font-size: 1.5em;
+    height: 75px;
+    line-height: 75px;
+  }
+  .card {
+    height: 80px;
+  }
+  #dealer-hole-card {
+    width: 56px;
+  }
+  #dealer-hand, #player-hand {
+    height: 90px;
+  }
+  #newgame-button {
+    display: inline-block;
+    color: red;
+  }
+  label {
+    font-size: 1.25em;
+  }
+  button {
+    padding: 15px 10px;
+  }
+
+/* 88888888888888888888888888888888888 */
+@media screen and (min-width: 600px) {
+  h1 {
+    font-size: 3em;
+  }
+  #messages {
+    font-size: 2em;
+  }
+  #table {
+    padding-bottom: 50px;
+  }
+  .card {
+    height: 100px;
+  }
+  #dealer-wwhole-card {
+    width: 70px;
+  }
+  #dealer-hand, #player-hand {
+    height: 110px;
+  }
+  label {
+    font-size: 1.25em;
+  }
+  button {
+    padding: 20px 15px;
+  }
+}
