@@ -55,7 +55,7 @@
       let suit = {
         0: 'hearts', 1: 'diamonds', 2: 'clubs', 3: 'spades'
       }
-        // save in into currentDeck
+        // save into currentDeck
       for (let k = 1; k <= 13; k++) {
         this.currentDeck.push(new card( k, suit[i]) );
       }
